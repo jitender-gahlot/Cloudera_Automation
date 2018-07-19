@@ -1,9 +1,14 @@
----
 driver:
   name: vagrant
+  network:
+        - ["private_network", {bridge: 'en10: Wi-Fi (AirPort) New', ip: "192.168.2.230"}]
+  customize:
+    memory: 10240
+    cpus: 4
 
 provisioner:
   name: chef_zero
+  require_chef_omnibus: true
   # You may wish to disable always updating cookbooks in CI or other testing environments.
   # For example:
   #   always_update_cookbooks: <%= !ENV['CI'] %>
@@ -13,7 +18,7 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu-16.04
+  #- name: ubuntu-16.04
   - name: centos-7
 
 suites:
