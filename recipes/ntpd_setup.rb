@@ -2,7 +2,7 @@
 # Cookbook Name:: cm_setup
 # Recipe:: ntpd_setup
 #
-# Copyright (c) 2016 Zubair AHMED.
+# Copyright (c) 2016 Jitender Gahlot.
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
