@@ -24,8 +24,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-
-
 # Installing and setting up `ntpd`
 # => https://supermarket.chef.io/cookbooks/ntpd#knife
 # => https://github.com/rogerdelph/cookbook-ntpd
