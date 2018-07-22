@@ -1,9 +1,9 @@
 name 'Cloudera_Automation'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Jitender Singh Gahlot'
+maintainer_email 'mail2gahlot@gmail.com'
 license 'All Rights Reserved'
-description 'Installs/Configures Cloudera_Automation'
-long_description 'Installs/Configures Cloudera_Automation'
+description 'Installs/Configures Cloudera Cluster'
+long_description 'Installs/Configures Cloudera Cluster'
 version '0.1.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 

@@ -49,6 +49,10 @@ yum_repository 'epel' do
   action :create
 end
 
+# package 'epel-release' do
+#   action :install
+# end
+
 #
 # Installing pip and cm-api for cloudera.
 #
