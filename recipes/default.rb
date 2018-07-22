@@ -13,3 +13,7 @@ include_recipe 'Cloudera_Automation::update_host_file'
 include_recipe 'Cloudera_Automation::cloudera_repo_setup'
 
 include_recipe 'Cloudera_Automation::cloudera_install_setup'
+
+execute 'new_cluster_deployment' do
+  command "python #{node['python_script']['path']}"
+end
