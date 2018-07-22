@@ -24,10 +24,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-
-
-
-
 # Disable selinux_state
 # => https://github.com/skottler/selinux
 # => https://supermarket.chef.io/cookbooks/selinux
@@ -37,7 +33,6 @@
 #   action :disabled
 # end
 
-
 #
 # disabled `iptables`
 #
@@ -46,12 +41,10 @@ service 'iptables' do
   action [:stop, :disable]
 end
 
-
 #
 # Installing python and cm-api
 # => https://supermarket.chef.io/cookbooks/poise-python
 #
-
 
 #
 # Python Script to deploy cluster.

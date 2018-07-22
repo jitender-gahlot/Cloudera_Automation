@@ -23,8 +23,6 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
-
-
 #
 # Setting up cloudera repository
 #
@@ -34,7 +32,8 @@ include_recipe 'Cloudera_Automation::cloudera_repo_setup'
 #
 # Installing Packages for Cloudera Manager.
 #
-node['cdh_install']['install_packages'].each do | pkgs_to_install |
+
+node['cdh_install']['install_packages'].each do |pkgs_to_install|
   package pkgs_to_install do
     action :install
   end
@@ -47,8 +46,6 @@ end
 #
 
 # include_recipe 'cm_setup::cmdb_config'
-
-
 #
 # Starting `cloudera-manager` service
 # => https://docs.chef.io/resource_service.html
