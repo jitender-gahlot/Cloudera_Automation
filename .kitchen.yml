@@ -1,7 +1,7 @@
 driver:
   name: vagrant
   network:
-        - ["private_network", {bridge: 'en10: Wi-Fi (AirPort) New', ip: "192.168.2.230"}]
+        - ["private_network", {bridge: 'en10: Wi-Fi (AirPort) New', ip: "192.168.1.230"}]
   customize:
     memory: 10240
     cpus: 4

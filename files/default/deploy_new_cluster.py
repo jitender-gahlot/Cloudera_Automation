@@ -45,7 +45,9 @@ service_types_and_names_all = {
 
 # Configuration
 service_types_and_names = {
-    "ZOOKEEPER": "ZOOKEEPER-1"
+    "ZOOKEEPER": "ZOOKEEPER-1",
+    "HDFS": "HDFS-1",
+    "YARN": "YARN"
 }
 
 cm_host = "default-centos-7.vagrantup.com"
